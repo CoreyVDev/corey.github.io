@@ -1,0 +1,75 @@
+/* ===== Global Theme ===== */
+body {
+    margin: 0;
+    padding: 0;
+    background: #0A0F14; /* dark blue‑black */
+    font-family: 'Segoe UI', sans-serif;
+    color: #E6E6E6; /* primary text */
+}
+
+
+
+    /* ===== Accent Color (Electric Blue) ===== */
+    a,
+    .accent,
+    button:hover,
+    h1 span,
+    h2 span {
+        color: #3A8DFF; /* electric blue accent */
+    }
+
+        /* Optional: glowing hover effect */
+        a:hover {
+            color: #3A8DFF;
+            text-shadow: 0 0 8px rgba(58, 141, 255, 0.7);
+        }
+
+/* ===== Secondary Text ===== */
+p,
+.text-secondary {
+    color: #A8A8A8; /* softer secondary text */
+}
+
+.hero-container {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 40px 50px;
+    background: #0d0d0f;
+    border-radius: 14px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.35);
+    color: #e6e6e6;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.hero-container .intro-text {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.hero-image img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #4da3ff;
+}
+.subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #4da3ff;
+    margin-top: 100px;
+}
+.body-text{
+    font-size: 18px;
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
