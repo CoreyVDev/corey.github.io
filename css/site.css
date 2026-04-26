@@ -74,7 +74,20 @@ p,
     line-height: 1.6;
 }
 .navbar {
-    border:1px solid rgba(255, 255, 255, 0.88);
-    border-radius: 12px;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+.navbar a:hover {
+    color: #00aaff;
