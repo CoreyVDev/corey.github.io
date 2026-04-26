@@ -1,9 +1,4 @@
 /* ===== Global Theme ===== */
-border {
-    border:1px solid rgba(255, 255, 255, 0.88);
-    border-radius: 12px;
-    padding: 20px;
-}
 body {
     margin: 0;
     padding: 0;
@@ -77,4 +72,9 @@ p,
     font-size: 18px;
     margin-bottom: 18px;
     line-height: 1.6;
+}
+border {
+    border:1px solid rgba(255, 255, 255, 0.88);
+    border-radius: 12px;
+    padding: 20px;
 }
