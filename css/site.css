@@ -76,7 +76,7 @@ p,
 .navbar {
     display: flex;
     justify-content: center;
-    gap: 40px
+    gap: 40px;
     padding: 20px 0;
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(10px);
